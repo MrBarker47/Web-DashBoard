@@ -42,6 +42,17 @@ width: 40px;
     border-radius: 45%;
 }
 
+/* Dashboard */
+.traffic-nav-link,
+.traffic-nav-link,
+.traffic-nav-link active,
+.traffic-nav-link {
+    list-style: none;
+
+}
+.traffic {
+    list-style-type: none;
+}
 
 /* screen size */
 
