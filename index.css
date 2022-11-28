@@ -30,9 +30,11 @@ width: 40px;
   
 }
 
-
-
-
+.navigation {
+    text-align: center;
+    word-spacing: 40px;
+    margin: 15px;
+}
 
 .profile-image {
     margin: 20px;
