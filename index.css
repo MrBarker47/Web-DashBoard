@@ -26,8 +26,6 @@ width: 40px;
 .bar,
 .memebers,
 .settings {
-display: inline-flex;
-justify-items: end;
   width: 40px;
   
 }
