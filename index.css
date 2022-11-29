@@ -60,7 +60,8 @@ margin: 20%;
 }
 .traffic-header {
 word-spacing: 30px;
-margin: 15px;
+display: grid;
+list-style-position: outside;
 
 
 }
