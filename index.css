@@ -59,7 +59,8 @@ display: grid;
 
 /* Memebers */
 .memebers-container {
-   
+display: grid;
+justify-self: center;
     
 }
 
