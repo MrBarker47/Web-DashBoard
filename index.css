@@ -1,9 +1,29 @@
 
 .grid-container {
     display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "header"
+    "navigation"
+    "main";
 }
 
+.header {
+    grid-area: header;
+}
 
+.navigation {
+    grid-area: navigation;
+}
+
+.main {
+    grid-area: main;
+
+}
+
+.main {
+    display: grid;
+}
 /* Icons */
 
 .header {
@@ -14,6 +34,7 @@
     margin: 15px;
     
 }
+
 
 .profile-picture {
     border-radius: 45%;
@@ -66,8 +87,7 @@ padding-left: 0;
 
 /* Memebers */
 .memebers-container {
-/* display: ; */
-justify-self: center;
+
     
 }
 
@@ -79,15 +99,36 @@ justify-self: center;
     border-radius: 2%;
     background-color: gainsboro;
     margin: 5%;
-    padding: 4%; 
+    padding: 2%; 
+}
+
+.twitter {
+    width: 10%;
+    padding-right: 80%;
 }
 
 
 /* screen size */
 
 @media (min-width: 768px) {
-
+    .grid-container {
+        grid-template-columns: 55px 1fr;
+        grid-template-areas: "header header"
+        "navigation main";
+    }
     
+    .main {
+      grid-template-columns: 50%;
+    }
+    .traffic, .social {
+        grid-column: 1 / span 2;
+    }
+    .daily, .memebers, .message {
+        grid-column: 1 / span 1;
+    }
+    .mobile, .activity, .settings {
+        grid-column: 2 / span 1;
+    }
 }
 
     
