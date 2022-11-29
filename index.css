@@ -18,8 +18,7 @@
 .profile-picture {
     border-radius: 45%;
     width: 55%;
-    height: 50px;
-    margin: 10%;
+    margin-top: 4%;
  
 }
 
@@ -58,11 +57,10 @@ margin: 20%;
 
 
 }
-.traffic-header {
-word-spacing: 30px;
-display: grid;
-list-style-position: outside;
-
+.traffic-header ul {
+display: flex;
+justify-content: space-evenly;
+padding-left: 0;
 
 }
 
@@ -78,9 +76,10 @@ justify-self: center;
 .social-container {
     text-align: center;
     border: 2px solid red;
-    border-collapse: separate;
-    border-spacing: 15px 15px;
-    background-color: gainsboro; 
+    border-radius: 2%;
+    background-color: gainsboro;
+    margin: 5%;
+    padding: 4%; 
 }
 
 
