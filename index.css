@@ -52,7 +52,8 @@ width: 40px;
 
 }
 .traffic {
-
+display: grid;
+grid--column-gap: 20px;
 
 }
 
@@ -62,6 +63,15 @@ width: 40px;
     
 }
 
+
+/* social container */
+.social-container {
+    text-align: center;
+    border: 2px solid red;
+    border-collapse: separate;
+    border-spacing: 15px 15px;
+    background-color: gainsboro; 
+}
 
 
 /* screen size */
