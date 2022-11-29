@@ -32,7 +32,7 @@ width: 40px;
 
 .navigation {
     text-align: center;
-    word-spacing: 40px;
+    word-spacing: 30px;
     margin: 15px;
 }
 
@@ -55,6 +55,14 @@ width: 40px;
 
 
 }
+
+/* Memebers */
+.memebers-container {
+   
+    
+}
+
+
 
 /* screen size */
 
