@@ -87,11 +87,14 @@ padding-left: 0;
 
 /* Memebers */
 .memebers-container {
-  display: flex;
-  align-content: center;
-  padding-right: 20px;
+  
 }
 
+.profile-image {
+    display: flex;
+    align-items: center;
+    padding-left: 125%;
+}
 
 /* social container */
 .social-container {
