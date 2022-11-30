@@ -86,9 +86,8 @@ padding-left: 0;
 }
 
 /* Memebers */
-.memebers-container {
+.memebers {
 
-    
 }
 
 
@@ -107,28 +106,76 @@ padding-left: 0;
     padding-right: 80%;
 }
 
+/* Widget Containers */
+.widget-container-full, .widget-container-half {
+    width: 95vw;
+}
+
+/* message user  */
+.container {
+    margin: 20px;
+    
+}
+
+/* settings */
+.settings-button {
+    margin-top: 2%;
+}
+
+.option {
+    width: 50%;
+    padding: 2%;
+}
+
+.button-primary, 
+.button-disabled {
+    padding: 2%;
+    width: 25%;
+}
+
+/* Toggle Switch */
+.checkbox {
+    -webkit-appearance: none;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #ccc;
+    transition: background .3s;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: white;
+    transition: right .4s;
+}
+
+input:checked {
+    background-color: "";
+}
+
+input:checked::after {
+    left: 70%;
+}
+
 
 /* screen size */
 
+
+
+
+
 @media (min-width: 768px) {
-    .grid-container {
-        grid-template-columns: 55px 1fr;
-        grid-template-areas: "header header"
-        "navigation main";
-    }
-    
-    .main {
-      grid-template-columns: 50%;
-    }
-    .traffic, .social {
-        grid-column: 1 / span 2;
-    }
-    .daily, .memebers, .message {
-        grid-column: 1 / span 1;
-    }
-    .mobile, .activity, .settings {
-        grid-column: 2 / span 1;
-    }
+
 }
 
     
