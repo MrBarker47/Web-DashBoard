@@ -114,10 +114,7 @@ padding-left: 0;
     
 }
 
-/* Widget Containers */
-.widget-container-full, .widget-container-half {
-    width: 95vw;
-}
+
 
 /* message user  */
 .container {
@@ -125,20 +122,41 @@ padding-left: 0;
     
 }
 
+.messages {
+    display: flex;
+    width: 25%;
+    padding-left: 30%;
+}
+
 /* settings */
+
+.setting {
+    display: grid;
+   justify-content: center;
+   padding-left: 25%;
+}
 .settings-button {
     margin-top: 2%;
+    
 }
 
 .option {
-    width: 50%;
+    width: 80%;
     padding: 2%;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 .button-primary, 
 .button-disabled {
     padding: 2%;
-    width: 25%;
+    width: 45%;
+
 }
 
 /* Toggle Switch */
