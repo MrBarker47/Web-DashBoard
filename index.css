@@ -193,15 +193,22 @@ input:checked::after {
     left: 70%;
 }
 
+.widget-container-full, .widget-container-half {
+    width: 95vw;
+}
+
 
 /* screen size */
 @media (min-width: 768px) {
 
-
-    
- 
-    
-    }
+    .home,
+    .bar,
+    #memebers, 
+    #settings {
+        width: 4%;
+        display: flex;
+     }
+   }
 @media (min-width: 1024px) {
 
 }
