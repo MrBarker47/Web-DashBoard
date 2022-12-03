@@ -216,4 +216,11 @@ input:checked::after {
    }
 @media (min-width: 1024px) {
 
+    .home,
+    .bar,
+    #memebers, 
+    #settings {
+        width: 4%;
+        display: flex;
+     }
 }
