@@ -1,8 +1,9 @@
-/* * {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -65,8 +66,10 @@ margin: 20%;
 
 .navigation {
     text-align: center;
-    word-spacing: 30px;
-    margin: 15px;
+    word-spacing: 20px;
+    background-color: aqua;
+    padding: 1%;
+    margin: 5px;
 }
 
 .profile-image {
