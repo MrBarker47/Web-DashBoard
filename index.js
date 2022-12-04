@@ -46,11 +46,6 @@ let trafficOptions = {
       }
     };
 
-    let trafficChart = new Chart(trafficCanvas, {
-        type: 'line',
-        data: trafficData,
-        options: trafficOptions
-    });
 
     const dailyCanvas = document.getElementById('daily-chart');
 
@@ -114,3 +109,29 @@ let trafficOptions = {
             }
         }
     };
+
+
+
+    let mobileChart = new Chart(mobileCanvas, {
+        type: 'doughnut',
+        data: mobileData,
+        options: mobileOptions
+    });
+
+
+    const user = document.getElementById("userField");
+    const message = document.getElementById("messageField");
+    const send = document.getElementById("send");
+
+
+    send.addEventListener('click', () => {
+        if (user.value === "" && message.value === "") {
+            alert("Please fill out user and message fields before sending");
+        } else if (user.value === "") {
+            alert("Please fill out user field before sending");
+        } else if (message.value === "") {
+            alert("Please fill out message field before sending")    
+       } else {
+        alert('Message successfully sent to ${user.value}');
+       }
+    });
