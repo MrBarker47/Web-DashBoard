@@ -18,6 +18,8 @@ alertBanner.addEventListener('click', e => {
 
 // Charts 
 
+const trafficCanvas = document.getElementById('traffic-chart');
+
 let trafficData = {
     labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3", "4-10", "11-17",
 "18-24", "25-31"],
@@ -67,9 +69,7 @@ let trafficOptions = {
         }]
     };
 
-
-
-    const dailyOptions = {
+   const dailyOptions = {
         scales: {
             y: {
                 beginAtZero: true
@@ -82,7 +82,7 @@ let trafficOptions = {
         }
     };
 
-    let dailyChart = new Chart(dailyCanvas,{
+    let dailyChart = new Chart(dailyCanvas, {
         type: 'bar',
         data: dailyData,
         options: dailyOptions
@@ -94,6 +94,7 @@ let trafficOptions = {
     const mobileData = {
         labels: ["Desktop", "Tablet", "Phones"],
         datasets: [{
+            labels: '# of users',
             data: [2000, 550, 500],
             borderWidth: 0,
             backgroundColor: [
@@ -101,8 +102,8 @@ let trafficOptions = {
                 '#78CF82',
                 '#51B6C8',
             ]
-        }]
-    };
+          }]
+        };
 
     const mobileOptions = {
         aspectRatio: 1.9,

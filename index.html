@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js" integrity="sha512-d6nObkPJgV791iTGuBoVC9Aa2iecqzJRE0Jiqvk85BhLHAPhWqkuBiQb1xz2jvuHNqHLYoN3ymPfpiB1o+Zgpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body class="grid-container">
     <!-- Header -->
@@ -39,8 +39,7 @@
         <row>
             <col></col>
         </row>
-
-        <row>
+          <row>
             <col></col>
             <col></col>
         </row>
@@ -74,29 +73,27 @@
         </div>
         <div class="widget-container-full">
 
-            <canvas id="traffic-chart"></canvas>
+           <canvas id="traffic-chart"></canvas>
         </div>
     </section>
 
-    <!-- Graph -->
-
-    <section class="daily">
+    <!-- Graph Chart-->
+   <section class="daily">
         <h3>Daily Traffic</h3>
         <div class="widget-container-half">
 
-        <canvas id="daily-chart"></canvas>
-
-        </div>
+          <canvas id="daily-chart"></canvas>
+         </div>
     </section>
 
     
 
-     <!-- Donut -->
+     <!-- Donut Chart -->
+  <section class="mobile">
+        <h3>Mobile Users</h3>
+        <div class="widget-container-half">
 
-     <section class="mobile">
-        <div class="">
-
-            <canvas id="mobile-users"></canvas>
+        <canvas id="mobile-chart"></canvas>
         </div>
      </section>
 
@@ -254,6 +251,6 @@
               <button class="button-disabled" id="cancel">Cancel</button>
             </div>
         </section>
-    <script type="text/javascript" src="index.js"></script>
-  </body>
+     <script type="text/javascript" src="index.js"></script>
+</body>
 </html>
