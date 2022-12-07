@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -48,15 +55,13 @@
     display: grid;
     grid-template-columns: 4fr 2fr 2fr 2fr;
     background-color: #92969c;
-    width: 100%;
+
 }
 
 .profile-picture {
     border-radius: 45%;
     width: 65%;
     margin-top: 4%;
-
-    
 }
 
 h4 {
@@ -85,7 +90,7 @@ h4 {
     text-align: center;
     word-spacing: 30px;
     background-color: aqua;
-    padding: 1%;
+    padding: 1rem 0;
     margin: 5px;
 }
 
@@ -236,7 +241,29 @@ input:checked::after {
 
 /* screen size */
 @media (min-width: 768px) {
-  
+    .grid-container {
+        grid-template-columns: 55px 1fr;
+        grid-template-areas: "header header"
+        "navigation main";
+
+    }
+
+    .navigation {
+        display: grid;
+        grid-area: navigation;
+        grid-template-rows: repeat(8, 1fr);
+        place-items: center;
+        word-spacing: 30px;
+        background-color: aqua;
+     
+    }
+
+
+    .profile-picture {
+        border-radius: 45%;
+        width: 25%;
+      
+    }
 
 
 
