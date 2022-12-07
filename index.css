@@ -6,7 +6,12 @@
     grid-template-areas: "header"
     "navigation"
     "main";
+
 }
+
+ 
+;
+
 
 .header {
     grid-area: header;
@@ -21,8 +26,17 @@
     grid-area: main;
 
 }
+/* Alert  */
+.alert {
+    background-color: #ccc;
+    border-radius: 2%;
+    border-top: 20px;
+}
 
+.alert-banner-close {
+    color: white;
 
+}
 
 /* Icons */
 
