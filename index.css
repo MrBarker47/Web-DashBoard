@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 .grid-container {
     display: grid;
@@ -10,7 +17,6 @@
 }
 
  
-;
 
 
 .header {
@@ -26,6 +32,12 @@
     grid-area: main;
 
 }
+
+
+/* nav */
+
+
+
 /* Alert  */
 .alert {
     background-color: #ccc;
@@ -139,11 +151,14 @@ padding-left: 0;
     
 }
 
-.message {
+.message  {
     display: flex;
     width: 25%;
     padding-left: 30%;
 }
+
+
+
 
 /* settings */
 
