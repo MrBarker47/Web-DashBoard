@@ -1,11 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -34,7 +26,7 @@
 }
 
 
-/* nav */
+
 
 
 
@@ -55,24 +47,27 @@
 .header {
     display: grid;
     grid-template-columns: 4fr 2fr 2fr 2fr;
+    background-color: #92969c;
+    width: 100%;
 }
-.name {
-    margin: 15px;
-    
-}
-
 
 .profile-picture {
     border-radius: 45%;
-    width: 55%;
+    width: 65%;
     margin-top: 4%;
- 
+
+    
+}
+
+h4 {
+    font-weight: lighter;
+    
 }
 
 .bell {
-width: 35px;
-margin: 20%;
-
+   width: 35px;
+   margin: 20%;
+    padding-left: 5%;
 }
 
 
@@ -84,10 +79,11 @@ margin: 20%;
     width: 10%;
 }
 
+/* navbar */
 
 .navigation {
     text-align: center;
-    word-spacing: 20px;
+    word-spacing: 30px;
     background-color: aqua;
     padding: 1%;
     margin: 5px;
@@ -157,7 +153,11 @@ padding-left: 0;
     padding-left: 30%;
 }
 
+#send {
+    width: 100%;
+    height: 30px;
 
+}
 
 
 /* settings */
@@ -202,7 +202,7 @@ padding-left: 0;
     width: 70px;
     height: 30px;
     border-radius: 25px;
-    background-color: #ccc;
+    background-color: gray;
     transition: background .3s;
     outline: none;
     cursor: pointer;
@@ -222,7 +222,7 @@ padding-left: 0;
 }
 
 input:checked {
-    background-color: "";
+    background-color: aqua;
 }
 
 input:checked::after {
@@ -236,13 +236,8 @@ input:checked::after {
 
 /* screen size */
 @media (min-width: 768px) {
-  .widget-container-full {
-    width: 90vw;
-  }
+  
 
-  .widget-container-half {
-    width: 45vw;
-  }
 
 
     .home,
@@ -253,7 +248,7 @@ input:checked::after {
         display: flex;
      }
 
-    
+
    }
 @media (min-width: 1024px) {
 
