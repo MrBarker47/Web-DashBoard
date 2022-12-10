@@ -5,6 +5,7 @@
 }
 
 
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -132,7 +133,7 @@ h3 {
 /* social container */
 .social-container {
     text-align: center;
-    border: 2px solid red;
+    border: 2px solid aqua;
     border-radius: 2%;
     background-color: gainsboro;
     margin: 4%;
@@ -141,11 +142,25 @@ h3 {
     
 }
 
+
+
 .twitter {
     width: 10%;
     padding-right: 80%;
-    
 }
+
+.facebook {
+  background-color: aqua;
+  border-radius: 100%;
+  padding: 20px;
+  margin: 100px;
+}
+
+
+#facebook {
+    margin-left: 200px;
+}
+
 
 
 
