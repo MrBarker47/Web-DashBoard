@@ -38,9 +38,15 @@
     border-radius: 5px;
 }
 
+.text {
+    padding: 2px;
+    margin: 1%; 
+}
+
 span {
     float: right;
     color: white;
+
 }
 
 
