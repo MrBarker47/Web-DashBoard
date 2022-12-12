@@ -276,17 +276,8 @@ input:checked::after {
         grid-template-columns: 50%;
     }
 
-    .traffic, .social {
-        grid-column: 1 / span 2;
-    }
 
-    .daily, .memebers, .message {
-        grid-column: 1 / span 1;
-    }
 
-    .mobile, .activity, .setting {
-        grid-column: 2 / span 1;
-    }
 
     .widget-container-full {
         width: 90vw;
@@ -335,22 +326,9 @@ input:checked::after {
 
     }
 
-    .main {
-        display: grid;
-        grid-template-columns: 50%;
-    }
 
-    .traffic, .social {
-        grid-column: 1 / span 2;
-    }
 
-    .daily, .memebers, .message {
-        grid-column: 1 / span 1;
-    }
 
-    .mobile, .activity, .setting {
-        grid-column: 2 / span 1;
-    }
 
     .navigation {
         text-align: center;
