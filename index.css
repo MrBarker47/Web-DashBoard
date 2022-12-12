@@ -173,36 +173,44 @@ h3 {
 
 
 /* message user  */
-.container {
-    margin: 20px;
-    
-}
 
 .message  {
     display: flex;
-    width: 25%;
+    width: 15%;
     padding-left: 30%;
+    box-sizing: border-box;
 }
 
 .form-field {
+
     height: 30%;
     width: 150%;
     margin-bottom: 4%;
 }
 
 .form-area {
-   height: 80px;
+  width: max-content;
 }
 
+
+
 #send {
-    width: 100%;
-    height: 30px;
+    width: 140%;
+    height: 40px;
     margin-top: 2%;
 
 }
 
 
 /* settings */
+.container {
+    margin: 20px;
+    
+}
+
+#update {
+    margin-top: 1%;
+}
 
 .setting {
     display: grid;
@@ -219,13 +227,12 @@ h3 {
     
 }
 
-.paragraph {
-    word-space: 2%;
-}
+
 
 #save, #cancel {
     background-color: aqua;
     font-size: large;
+    width: 45%;
 }
 
 
