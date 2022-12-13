@@ -32,6 +32,16 @@
 
 }
 
+h1 {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.name {
+    margin-top: 20px;
+    padding: 0px;
+}
+
 /* Alert  */
 .alert {
     margin: 20px;
@@ -157,19 +167,10 @@ h3 {
     padding-right: 80%;
 }
 
-.facebook {
-  background-color: aqua;
-  border-radius: 100%;
-  padding: 20px;
-  margin: 100px;
-}
-
-
 #facebook {
-    margin-left: 200px;
+
+
 }
-
-
 
 
 /* message user  */
@@ -305,12 +306,7 @@ input:checked::after {
 
     }
 
-    .main {
-        display: grid;
-        grid-template-columns: 50%;
-    }
-
-
+   
 
     .widget-container-full {
         width: 90vw;
