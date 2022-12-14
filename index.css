@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lora', serif;
 }
 
 
@@ -38,8 +39,7 @@ h1 {
 }
 
 .name {
-    margin-top: 30px;
-    padding: 0px;
+    margin-top: 20px;
 }
 
 /* Alert  */
@@ -155,17 +155,43 @@ h3 {
     border-radius: 2%;
     background-color: gainsboro;
     margin: 4%;
-    padding: 4%; 
+    padding: 1%; 
    
     
 }
 
+.social-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    
+}
 
- 
 
 #facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:20%;
+}
 
+#instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:20%;
+}
 
+#twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:20%;
 }
 
 
