@@ -204,15 +204,20 @@ h3 {
     box-sizing: border-box;
 }
 
+
+
 .form-field {
 
-    height: 30%;
-    width: 150%;
+    height: 20%;
+    width: 120%;
     margin-bottom: 4%;
 }
 
 .form-area {
-  width: max-content;
+ display: block;
+margin: auto;
+padding: auto;
+ width: 100%;
 }
 
 
@@ -220,7 +225,7 @@ h3 {
 #send {
     width: 140%;
     height: 40px;
-    margin-top: 2%;
+    margin-top: 4%;
 
 }
 
@@ -229,6 +234,18 @@ h3 {
 .container {
     margin: 20px;
     
+}
+
+.paragraph1 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1px;
+}
+
+.paragraph2 {
+    padding-left: 4%;
 }
 
 #update {
