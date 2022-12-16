@@ -173,6 +173,8 @@ h3 {
 }
 
 
+
+
 #facebook {
     display: flex;
     justify-content: center;
@@ -345,7 +347,12 @@ input:checked::after {
 
     }
 
-   
+    .main {
+        display: grid;
+        grid-template-columns: 50%;
+    }
+ 
+
 
     .widget-container-full {
         width: 90vw;
@@ -355,11 +362,32 @@ input:checked::after {
         width: 45vw;
     }
 
-    #alert {
-        width: 50%;
-        padding-left: 125px;
+    /* header */
+
+
+
+    /* alert notification */
+    .alert {
+        margin: 20px;
+        width: 180%;
+        background-color: #ccc;
+        border-radius: 5px;
+        
+    }
+    
+    .text {
+        padding: 2px;
+        margin: 1%; 
+    }
+    
+    span {
+        float: right;
+        color: white;
+    
     }
 
+    
+    /* navbar */
      .navigation {
         text-align: center;
         word-spacing: 30px;
@@ -373,9 +401,14 @@ input:checked::after {
       
     }
 
-    
+    /* traffic */
+    .traffic-header ul {
+        padding-left: 130%;
+        display: flex;
+        justify-content: space-evenly
+    }
 
-
+    /* icons  */
     .home,
     .bar,
     #memebers, 
@@ -383,6 +416,8 @@ input:checked::after {
         width: 70%;
         height: 50px;
      }
+
+
     }
 
 
@@ -399,7 +434,7 @@ input:checked::after {
     
 
 
-
+/* navbar */
     .navigation {
         text-align: center;
         word-spacing: 30px;
@@ -413,6 +448,7 @@ input:checked::after {
       
     }
 
+    /* icons */
     .home,
     .bar,
     #memebers, 
