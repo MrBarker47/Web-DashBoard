@@ -172,8 +172,8 @@ h3 {
     
 }
 
-.social-text p {
-   
+.social-text {
+ 
 }
 
 
@@ -223,7 +223,7 @@ h3 {
 
 
 #send {
-    width: 140%;
+    width: 100%;
     height: 40px;
     margin-top: 4%;
     background-color: aqua;
@@ -437,6 +437,28 @@ input:checked::after {
         height: 50px;
      }
   
+     .message  {
+        display: flex;
+        width: 15%;
+        padding-left: 30%;
+        box-sizing: border-box;
+    }
+    
+    
+    .form-field {
+        height: 20%;
+        width: 100%;
+        margin-bottom: 7%;
+    
+    }
+    
+    
+#send {
+        width: 100%;
+        height: 40px;
+        margin-top: 4%;
+        background-color: aqua;
+    }
 
 
      /* save and cancel */
@@ -457,7 +479,32 @@ input:checked::after {
 
     }
 
-  
+    .message  {
+        display: flex;
+        width: 15%;
+        padding-left: 30%;
+        box-sizing: border-box;
+    }
+    
+    
+    .form-field {
+        height: 20%;
+        width: 100%;
+        margin-bottom: 7%;
+    
+    }
+    
+    
+    
+    
+    
+    
+    #send {
+        width: 100%;
+        height: 40px;
+        margin-top: 4%;
+        background-color: aqua;
+    }
 
     
 
