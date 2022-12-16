@@ -353,7 +353,7 @@ input:checked::after {
     }
     
    .daily {
-    grid-column: 1 / span 1;
+    grid-column:  1 / span 1;
    }
 
    .mobile {
