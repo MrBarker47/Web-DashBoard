@@ -238,16 +238,8 @@ padding: auto;
     
 }
 
-.paragraph1 {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 1px;
-}
-
-.paragraph2 {
-    padding-left: 4%;
+.paragraph {
+    margin-right: 215px;
 }
 
 #update {
@@ -264,23 +256,33 @@ padding: auto;
     line-height: 100px;
     display: flex;
     justify-content: space-between;
-    padding-right: 60px;
+    padding-right: 2%;
     margin: 4%;
     
 }
 
 
 
-#save, #cancel {
+#save {
     background-color: aqua;
     font-size: large;
     width: 45%;
 }
 
+#cancel {
+    background-color: aqua;
+    width: 45%;
+    font-size: large;
+  
+}
+
 
 .option {
-    width: 80%;
+    width: 90%;
+    margin-left: 4%;
     padding: 2%;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -303,6 +305,7 @@ padding: auto;
     -webkit-appearance: none;
     position: relative;
     width: 70px;
+    margin-right: 2px;
     height: 30px;
     border-radius: 25px;
     background-color: gray;
@@ -347,9 +350,9 @@ input:checked::after {
 
     }
 
-    .main {
+    main {
         display: grid;
-        grid-template-columns: 50%;
+        grid-template-columns: 60%;
     }
     
    .daily {
@@ -360,10 +363,15 @@ input:checked::after {
     grid-column: 2 / span 1;
    }
    
-   .memebers{
-    grid-column: 1 / span 1;
+   .traffic,
+   .social-container,
+   .memebers,
+   .messages, 
+   .setting {
+    grid-column: 1 / span 2;
    }
 
+  
     .widget-container-full {
         width: 80vw;
     }
