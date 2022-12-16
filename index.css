@@ -464,11 +464,11 @@ input:checked::after {
         margin: 0px;
     }
 
-    .profile-picture {
+    /* .profile-picture {
         border-radius: 45%;
         width: 25%;
       
-    }
+    } */
 
     /* icons */
     .home,
