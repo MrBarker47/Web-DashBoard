@@ -360,7 +360,7 @@ input:checked::after {
     grid-column: 2 / span 1;
    }
    
-   .memebers {
+   .memebers{
     grid-column: 1 / span 1;
    }
 
