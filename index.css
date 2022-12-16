@@ -418,6 +418,14 @@ input:checked::after {
      }
 
 
+
+     /* save and cancel */
+     #save, #cancel {
+        background-color: aqua;
+        font-size: large;
+        width: 45%;
+    }
+    
     }
 
 
