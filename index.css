@@ -172,6 +172,9 @@ h3 {
     
 }
 
+.social-text p {
+   
+}
 
 
 
@@ -206,15 +209,14 @@ h3 {
     box-sizing: border-box;
 }
 
-textarea {
-    resize: none;
-}
 
 .form-field {
     height: 20%;
-    width: 120%;
-    margin-bottom: 4%;
+    width: 100%;
+    margin-bottom: 7%;
+
 }
+
 
 
 
