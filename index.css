@@ -73,7 +73,7 @@ span {
 
 .profile-picture {
     border-radius: 45%;
-    /* width: 65%; */
+    width: 65%;
     margin-top: 4%;
 }
 
@@ -208,11 +208,13 @@ textarea {
 #send {
     display: grid;
     justify-content: center;
-    margin-left: 80px;
+    margin-left: 20px;
     width: 60%;
     height: 40px;
     margin-top: 4%;
+    padding: 2px;
     background-color: aqua;
+    font-size: larger;
 }
 
 
