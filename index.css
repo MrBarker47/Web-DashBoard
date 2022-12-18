@@ -114,14 +114,7 @@ h4 {
 }
 
 /* Dashboard */
-.traffic-nav-link,
-.traffic-nav-link,
-.traffic-nav-link active,
-.traffic-nav-link {
-    list-style: none;
 
-
-}
 
 
 
@@ -129,8 +122,10 @@ h4 {
 display: flex;
 justify-content: space-evenly;
 padding-left: 0;
-
+list-style-type: none;
 }
+
+
 
 /* Memebers */
 .memebers-container {
@@ -175,20 +170,8 @@ h3 {
 
 
 
-#facebook {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left:20%;
-}
-
-#instagram {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left:20%;
-}
-
+#facebook, 
+#instagram,
 #twitter {
     display: flex;
     justify-content: center;
@@ -197,28 +180,41 @@ h3 {
 }
 
 
+
+
 /* message user  */
 
-.message  {
+
+textarea {
     display: flex;
-    width: 15%;
-    padding-left: 30%;
-    box-sizing: border-box;
-}
-
-
-.form-field {
-    height: 20%;
     width: 100%;
-    margin-bottom: 7%;
-
+    height: 120px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 4px;
+    border-radius: 7px;
 }
+ 
+
+ .form-field {  
+    height: 45px;
+    width: 92%;
+    margin: 4%;
+    border-radius: 7px;
+    
+
+} 
+
 #send {
-    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-left: 80px;
+    width: 60%;
     height: 40px;
     margin-top: 4%;
     background-color: aqua;
 }
+
 
 /* settings */
 .container {
@@ -287,7 +283,7 @@ h3 {
 .checkbox {
     -webkit-appearance: none;
     position: relative;
-    width: 70px;
+    width: 60px;
     margin-right: 2px;
     height: 30px;
     border-radius: 25px;
@@ -353,21 +349,21 @@ input:checked::after {
           grid-column: 1 / span 2;
        }
 
-  
        .widget-container-full {
-           width: 80vw;
-        }
-    
-        .widget-container-half {
-           width: 40vw;
-        }
+        width: 80vw;
+     }
+ 
+     .widget-container-half {
+        width: 40vw;
+     }
+ 
 
     /* header */
 
      .header {
          display: grid;
           grid-template-columns: 4fr 2fr 2fr 2fr;
-           background-color: #92969c;
+           
         }
 
 
@@ -383,24 +379,7 @@ input:checked::after {
 
 
     /* alert notification */
-    .alert {
-         margin: 20px;
-          width: 180%;
-           background-color: #ccc;
-            border-radius: 5px;
-        }
-    
-    .text {
-        padding: 2px;
-        margin: 1%; 
-    }
-    
-    span {
-        float: right;
-        color: white;
-    
-    }
-
+     
     
     /* navbar */
      .navigation {
@@ -418,9 +397,8 @@ input:checked::after {
 
     /* traffic */
     .traffic-header ul {
-        padding-left: 130%;
-        display: flex;
-        justify-content: space-evenly
+        margin-right: 15px;
+        
     }
 
     /* memebers */
@@ -439,9 +417,11 @@ input:checked::after {
       }
 
     /* social container */
+    
     .social-container {
         display: flex;
     }
+    
     /* icons  */
     .home,
     .bar,
@@ -451,12 +431,7 @@ input:checked::after {
         height: 50px;
      }
   
-     .message  {
-        display: flex;
-        width: 15%;
-        padding-left: 30%;
-        box-sizing: border-box;
-    }
+
     
     
     .form-field {
@@ -510,7 +485,7 @@ input:checked::after {
      }
      
      .widget-container-half {
-         width: 40vw;
+         width: 34vw;
      }
 
     
