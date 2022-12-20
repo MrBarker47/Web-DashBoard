@@ -198,11 +198,10 @@ textarea {
 
  .form-field {  
     height: 45px;
-    width: 92%;
+    width: 90%;
     margin: 4%;
     border-radius: 7px;
     
-
 } 
 
 #send {
