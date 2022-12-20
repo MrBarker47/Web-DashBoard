@@ -145,15 +145,16 @@ h3 {
 
 /* social container */
 .social-container {
-    text-align: center;
+    display: flex;
+    text-align: left;
     border: 2px solid aqua;
     border-radius: 2%;
+    width: 70%;
     background-color: gainsboro;
-    margin: 4%;
-    padding: 1%; 
-   
-    
-}
+    margin-left: 21%;
+    margin-top: 2%;
+    padding: 2%; 
+ }
 
 .social-image {
     display: flex;
@@ -163,11 +164,18 @@ h3 {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    margin: 5px;
-    
+    margin: 2px;
 }
 
+.social-text {
+    display: grid;
+    padding-left: 20px;
+}
 
+.numbers {
+    font-size: 30px;
+    font-weight: normal;
+}
 
 
 #facebook, 
@@ -316,7 +324,7 @@ input:checked::after {
 }
 
 .widget-container-full, .widget-container-half {
-    width: 95vw;
+    width: 85vw;
 }
 
 
@@ -344,17 +352,14 @@ input:checked::after {
 
   
    .traffic,
-  
+     .social-container,
      .memebers,
       .message, 
         .setting {
           grid-column: 1 / span 2;
        }
 
-       .social-container {
-        grid-column: 1 / span 2;
-       }
-
+   
        .widget-container-full {
         width: 80vw;
      }
