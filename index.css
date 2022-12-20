@@ -344,11 +344,15 @@ input:checked::after {
 
   
    .traffic,
-   .social-container,
+  
      .memebers,
       .message, 
         .setting {
           grid-column: 1 / span 2;
+       }
+
+       .social-container {
+        grid-column: 1 / span 2;
        }
 
        .widget-container-full {
