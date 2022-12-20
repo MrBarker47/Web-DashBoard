@@ -452,18 +452,15 @@ span {
         width: 70%;
         height: 50px;
      }
-  
-     textarea {
-     min-width: 1202px;;
-    }
-    
 
     
     .form-field,
     textarea,
     #send {
-        min-width: 1270px;
+        min-width: 1240px;
         margin: 10px;
+    
+    
     }
 
 
