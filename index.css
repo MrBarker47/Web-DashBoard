@@ -42,19 +42,7 @@ h1 {
     margin-top: 20px;
 }
 
-/* .line1,
-.line2,
-.line3,
-.line4,
-.line5,
-.line6,
-.line7,
-.line8 {
-    border-bottom: solid 2px aqua;
-    margin-top: 20px;
 
-
-} */
 
 /* Alert  */
 .alert {
@@ -143,9 +131,10 @@ list-style-type: none;
 
 /* charts */
 #mobile-chart {
-    display: flex;
-    
+    margin-top: 20px;
 }
+
+
 
 #daily-chart {
     padding-left: 20px;
@@ -352,7 +341,7 @@ input:checked::after {
 }
 
 .widget-container-full, .widget-container-half {
-    width: 85vw;
+    width: 80vw;
 }
 
 
@@ -365,9 +354,8 @@ input:checked::after {
         "navigation main"; 
       }
 
-    main {
-         display: grid;
-          grid-template-columns: 55%;
+    .main {
+          grid-template-columns:1fr;
         }
     
     .daily {
