@@ -365,10 +365,9 @@ input:checked::after {
       .mobile {
        grid-column: 2 / span 1;
      }
-
-  
-   .traffic,
+     
      .social-container,
+   .traffic,
      .memebers,
       .message, 
         .setting {
