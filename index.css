@@ -362,22 +362,20 @@ input:checked::after {
     .daily {
       grid-column: 1 / span 1;
    }
-
-      .mobile {
+     .mobile {
        grid-column: 2 / span 1;
        padding-right: 40px;
-       
+    }
      
-     }
-     
-            .alert,
-            .traffic,
-            .memebers,
-            .social-container,
-            .message,
-            .setting {
-          grid-column: 1 / span 2;
-       }
+    .alert,
+    .traffic,
+    .memebers,
+    .social-container,
+    .message,
+    .setting {
+    grid-column: 1 / span 2;
+
+}
 
    
        .widget-container-full {
@@ -449,11 +447,7 @@ span {
       }
 
     /* social container */
-    
-    .social-container {
-        display: flex;
-    }
-    
+
     /* icons  */
     .home,
     .bar,
