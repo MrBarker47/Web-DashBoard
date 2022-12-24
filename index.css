@@ -461,6 +461,26 @@ span {
           padding: 7%;
       }
 
+      .date {
+        margin-left: auto;
+        margin-right: 15px;
+        margin-top: 20px;
+        
+      } 
+
+      .profile-name {
+        margin-right: 100px;
+      }
+
+      .left-side {
+       float: left;
+      }
+
+      .memebers-text {
+        margin-top: 30px;
+        
+      }
+
     /* social container */
 
     /* icons  */
@@ -474,18 +494,19 @@ span {
 
     
      .form-field {
-        width: 720px;
+        width: 730px;
         margin-left: 30px;
      }
 
      textarea {
-        min-width: 720px;
+        min-width: 730px;
      }
  
      #send {
-    min-width: 720px;
+    min-width: 730px;
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-top: 7px;
+    margin-bottom: 15px;
     }
 
 
@@ -501,7 +522,7 @@ span {
         -webkit-appearance: none;
         position: relative;
         width: 60px;
-        margin-right: 400px;
+        margin-right: 500px;
         height: 30px;
         border-radius: 25px;
         background-color: gray;
