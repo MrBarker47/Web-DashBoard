@@ -379,16 +379,17 @@ input:checked::after {
 }
 
 #social {
-    margin-right: 20%;
+    margin-right: 25%;
 }
 
 .social-container {
     width: 240px;
+    margin-left: 4%;
 }
 
 .social-connection {
     display: flex;
-    padding-right: 30px;
+    padding: 40px;
 
 }
    
@@ -419,7 +420,7 @@ input:checked::after {
 
 span {
     float: right;
-
+    color: white;
 
 }
 
@@ -473,14 +474,18 @@ span {
 
     
      .form-field {
-        width: 644px;
-        margin: 10px;
+        width: 720px;
+        margin-left: 30px;
      }
 
-    textarea, 
+     textarea {
+        min-width: 720px;
+     }
+ 
      #send {
-    min-width: 640px;
-    margin: 10px;
+    min-width: 720px;
+    margin-left: 30px;
+    margin-bottom: 30px;
     }
 
 
@@ -491,21 +496,39 @@ span {
         font-size: large;
         width: 45%;
     }
+
+    .checkbox {
+        -webkit-appearance: none;
+        position: relative;
+        width: 60px;
+        margin-right: 400px;
+        height: 30px;
+        border-radius: 25px;
+        background-color: gray;
+        transition: background .3s;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .checkbox::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        height: 1.25rem;
+        width: 1.25rem;
+        background-color: white;
+        transition: right .4s;
+    }
+    
     
     }
 
 
 @media (min-width: 1024px) {
 
-    .traffic,
-    .social-container,
-    .memebers,
-    .messages, 
-    .setting {
-     grid-column: 1 / span 2;
-    }
- 
-   
      .widget-container-full {
          width: 80vw;
      }
