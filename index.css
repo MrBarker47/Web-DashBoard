@@ -370,13 +370,26 @@ input:checked::after {
     .alert,
     .traffic,
     .memebers,
-    .social-container,
+    #social,
     .message,
     .setting {
     grid-column: 1 / span 2;
 
 }
 
+#social {
+    margin-right: 20%;
+}
+
+.social-container {
+    width: 240px;
+}
+
+.social-connection {
+    display: flex;
+    padding-right: 30px;
+
+}
    
        .widget-container-full {
         width: 80vw;
@@ -526,4 +539,3 @@ span {
        height: 50px;
      }
 }
-
