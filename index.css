@@ -405,7 +405,7 @@ input:checked::after {
     /* header */
 
     .profile-picture {
-      margin-left: 170px;
+      margin-left: 130px;
     }
 
     .bell {
@@ -577,7 +577,7 @@ span {
      }
 
      .profile-picture {
-        margin-left: 170px;
+        margin-left: 120px;
       }
   
       .bell {
