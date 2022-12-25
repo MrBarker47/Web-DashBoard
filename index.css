@@ -77,8 +77,9 @@ span {
 
 .profile-picture {
     border-radius: 45%;
-    width: 65%;
-    margin-top: 4%;
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 1px;
 }
 
 h4 {
