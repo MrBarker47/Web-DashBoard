@@ -569,6 +569,8 @@ span {
 
 @media (min-width: 1024px) {
 
+    
+
      .widget-container-full {
          width: 80vw;
      }
@@ -579,6 +581,7 @@ span {
 
      .profile-picture {
         margin-left: 185px;
+        margin-top: 4%;
       }
   
       .bell {
@@ -620,4 +623,26 @@ span {
         width: 40px;
        height: 50px;
      }
+
+
+     .date {
+        margin-right: auto;
+        margin-right: 900px;
+        margin-top: 30px;
+        
+      } 
+
+      .profile-name {
+        margin-right: 100px;
+      }
+
+      .left-side {
+       float: left;
+      }
+
+      .memebers-text {
+        margin-top: 30px;
+        
+      }
+
 }
