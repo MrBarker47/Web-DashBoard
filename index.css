@@ -404,6 +404,24 @@ input:checked::after {
 
     /* header */
 
+    .profile-picture {
+      margin-left: 170px;
+    }
+
+    .bell {
+        margin-left: 175%;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 7fr 1fr 2fr 2fr;
+        background-color: #92969c;
+    
+    }
+     .header h4 {
+        margin-left: 30px;
+    }
+
 
 
      /* Alert  */
