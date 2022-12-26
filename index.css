@@ -19,7 +19,7 @@
 }
 
  
-.header {
+header {
     grid-area: header;
 }
 
@@ -27,7 +27,7 @@
     grid-area: navigation;
 }
 
-.main {
+main {
  
     grid-area: main;
 
@@ -40,6 +40,7 @@ h1 {
 
 .name {
     margin-top: 20px;
+    min-width: none;
 }
 
 
@@ -366,7 +367,7 @@ input:checked::after {
         "navigation main"; 
       }
 
-    .main {
+    main {
         display: grid;
           grid-template-columns:1fr;
         }
