@@ -1,18 +1,18 @@
-const alertBanner = document.getElementById("alert");
+// const alertBanner = document.getElementById("alert");
 
 
-alertBanner.innerHTML = `<div class="alert-banner"> 
-<p class="text"><strong>Alert:</strong> You have <strong>6</strong> overdue tasks
-to complete</p>
-<span class="banner" onclick="this.parentElement.style.display='none';">&times;</span>
-</div>`
+// alertBanner.innerHTML = `<div class="alert-banner"> 
+// <p class="text"><strong>Alert:</strong> You have <strong>6</strong> overdue tasks
+// to complete</p>
+// <span class="banner" onclick="this.parentElement.style.display='none';">&times;</span>
+// </div>`
 
-alertBanner.addEventListener('click', e => {
-    const element = e.target;
-    if (element.classList.contains("alert-banner-close")) {
-        alertBanner.style.display = "none"
-    }
-});
+// alertBanner.addEventListener('click', e => {
+//     const element = e.target;
+//     if (element.classList.contains("alert-banner-close")) {
+//         alertBanner.style.display = "none"
+//     }
+// });
 
 
 
