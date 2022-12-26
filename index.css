@@ -108,7 +108,7 @@ h4 {
 .navigation {
     text-align: center;
     word-spacing: 30px;
-    background-color: aqua;
+    background-color: royalblue;
     margin: 0px;
 }
 
@@ -167,7 +167,7 @@ h3 {
 .social-container {
     display: flex;
     text-align: left;
-    border: 2px solid aqua;
+    border: 2px solid royalblue;
     border-radius: 2%;
     width: 60%;
     background-color: gainsboro;
@@ -180,7 +180,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: royalblue;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -242,7 +242,7 @@ textarea {
     height: 40px;
     margin-top: 4%;
     padding: 2px;
-    background-color: aqua;
+    background-color: royalblue;
     font-size: larger;
 }
 
@@ -275,13 +275,13 @@ textarea {
 }
 
 #save {
-    background-color: aqua;
+    background-color: royalblue;
     font-size: large;
     width: 45%;
 }
 
 #cancel {
-    background-color: aqua;
+    background-color: royalblue;
     width: 45%;
     font-size: large;
   
@@ -448,7 +448,7 @@ span {
      .navigation {
         text-align: center;
         word-spacing: 30px;
-        background-color: aqua;
+        background-color: royalblue;
         margin: 0px;
     } 
 
@@ -532,7 +532,8 @@ span {
     
      /* save and cancel */
      #save, #cancel {
-        background-color: aqua;
+        background-color: royalblue;
+        padding: 1%;
         font-size: large;
         width: 45%;
     }
@@ -605,7 +606,7 @@ span {
     .navigation {
         text-align: center;
         word-spacing: 30px;
-        background-color: aqua;
+        background-color: royalblue;
         margin: 0px;
     }
 
@@ -644,5 +645,24 @@ span {
         margin-top: 30px;
         
       }
+
+          
+     .form-field {
+        width: 730px;
+        margin-left: 30px;
+        
+     }
+
+     textarea {
+        min-width: 730px;
+     }
+ 
+     #send {
+    min-width: 730px;
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    }
+
 
 }
