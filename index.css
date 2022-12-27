@@ -71,7 +71,7 @@ span {
 
 .header {
     display: grid;
-    grid-template-columns: 4fr 2fr 2fr 2fr;
+    grid-template-columns: 4fr 2fr 2fr 4fr;
     background-color: #92969c;
 
 }
@@ -79,7 +79,7 @@ span {
 .profile-picture {
     border-radius: 45%;
     width: 70%;
-    margin-top: 7px;
+    margin-top: 20%;
     margin-left: 4px;
 }
 
@@ -165,7 +165,7 @@ h3 {
 }
 
 
-.recent-activity {
+.recent-memebers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -383,6 +383,7 @@ input:checked::after {
     .alert,
     .traffic,
     .memebers,
+    .recent-activity,
     #social,
     .message,
     .setting {
@@ -426,7 +427,7 @@ input:checked::after {
 
     .header {
         display: grid;
-        grid-template-columns: 7fr 1fr 2fr 2fr;
+        grid-template-columns: 7fr 2fr 4fr 4fr;
         background-color: #92969c;
     
     }
@@ -434,6 +435,9 @@ input:checked::after {
         margin-left: 30px;
     }
 
+    .profile-picture {
+        margin-top: 7%;
+    }
 
 
      /* Alert  */
@@ -482,11 +486,10 @@ span {
         flex-direction: row;
         align-items: flex-start;
       }
-      .recent-activity {
+      .recent-memebers {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        flex-direction: row;
+        align-items: flex-start;
     }
     
       h2 {
@@ -532,16 +535,16 @@ span {
 
     
      .form-field {
-        width: 730px;
+        width: 650px;
         margin-left: 30px;
      }
 
      textarea {
-        min-width: 730px;
+        min-width: 650px;
      }
  
      #send {
-    min-width: 730px;
+    min-width: 650px;
     margin-left: 30px;
     margin-top: 7px;
     margin-bottom: 15px;
@@ -561,7 +564,7 @@ span {
         -webkit-appearance: none;
         position: relative;
         width: 60px;
-        margin-right: 500px;
+        margin-right: 400px;
         height: 30px;
         border-radius: 25px;
         background-color: gray;
@@ -582,6 +585,7 @@ span {
         background-color: white;
         transition: right .4s;
     }
+    
     
     
     }
