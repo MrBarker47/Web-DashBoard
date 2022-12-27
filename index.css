@@ -40,7 +40,6 @@ h1 {
 
 .name {
     margin-top: 20px;
-    min-width: none;
 }
 
 
@@ -71,15 +70,15 @@ span {
 
 .header {
     display: grid;
-    grid-template-columns: 4fr 2fr 2fr 4fr;
+    grid-template-columns: 4fr 2fr 2fr 2fr;
     background-color: #92969c;
 
 }
 
 .profile-picture {
     border-radius: 45%;
-    width: 70%;
-    margin-top: 20%;
+    width: 50%;
+    margin-top: 7%;
     margin-left: 4px;
 }
 
@@ -91,7 +90,7 @@ h4 {
 .bell {
    width: 30px;
    margin: 20%;
-    padding-left: 5%;
+    padding-left: 1px;
 }
 
 
@@ -418,7 +417,8 @@ input:checked::after {
     /* header */
 
     .profile-picture {
-      margin-left: 130px;
+      margin-left: 150px;
+      
     }
 
     .bell {
@@ -432,7 +432,7 @@ input:checked::after {
     
     }
      .header h4 {
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .profile-picture {
@@ -535,16 +535,16 @@ span {
 
     
      .form-field {
-        width: 650px;
+        width: 720px;
         margin-left: 30px;
      }
 
      textarea {
-        min-width: 650px;
+        min-width: 720px;
      }
  
      #send {
-    min-width: 650px;
+    min-width: 720px;
     margin-left: 30px;
     margin-top: 7px;
     margin-bottom: 15px;
