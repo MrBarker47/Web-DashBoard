@@ -592,21 +592,30 @@ span {
 
 
 @media (min-width: 1024px) {
+/* 
+     main {
+     max-width: 95vw;
+    }  */
 
-     .widget-container-full {
+    .memebers, .message {
+        grid-column: 1 / span 1;
+    }
+
+    .recent-activity, .setting {
+        grid-column: 2 / span 1;
+    }
+
+
+
+     /* .widget-container-full {
          width: 80vw;
      }
      
      .widget-container-half {
          width: 34vw;
      }
+      */
      
-     
-
-     .recent-activity, .setting {
-        grid-column: 2 / span 2;
-     }
-
 
       .bell {
           margin-left: 175%;
@@ -622,9 +631,6 @@ span {
           margin-left: 30px;
       }
       
-
-    
-
 
 /* navbar */
     .navigation {
