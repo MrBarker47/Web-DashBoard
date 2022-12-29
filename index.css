@@ -597,24 +597,23 @@ span {
      max-width: 95vw;
     }  */
 
-    .memebers, .message {
-        grid-column: 1 / span 1;
+    /* .message, .recent-activity {
+        grid-column: 1 / span 2;
     }
 
-    .recent-activity, .setting {
-        grid-column: 2 / span 1;
+    .memebers-container, .setting {
+        grid-column: 1 / span 2;
     }
+     */
 
-
-
-     /* .widget-container-full {
+     .widget-container-full {
          width: 80vw;
      }
      
      .widget-container-half {
          width: 34vw;
      }
-      */
+     
      
 
       .bell {
@@ -632,7 +631,7 @@ span {
       }
       
 
-/* navbar */
+
     .navigation {
         text-align: center;
         word-spacing: 30px;
@@ -646,7 +645,7 @@ span {
       
     }
 
-    /* icons */
+
     .home,
     .bar,
     #memebers, 
@@ -676,7 +675,7 @@ span {
         
       }
 
-          
+           
      .form-field {
         width: 430px;
         margin-left: 30px;
@@ -699,9 +698,7 @@ span {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-  
+}  
 
 
 
