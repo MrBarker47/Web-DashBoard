@@ -613,13 +613,17 @@ span {
 
     .traffic h3, .traffic-header ul {
       display: inline-flex; 
-      gap: 120px;
+      gap: 60px;
     }
 
-  
+    .traffic ul{
+        padding-left: 500px;
+    }
+   
 
      .widget-container-full {
          width: 80vw;
+        
      }
      
      .widget-container-half {
