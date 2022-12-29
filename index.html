@@ -47,8 +47,8 @@
     <!-- Alert -->
 
     <div class="alert" id="alert">
-        <!-- <p><strong>Alert:</strong> You have <strong></strong> overdue tasks to complete</p> 
-          <span class="banner" onclick="this.parentElement.style.display='none';">&times;</span> -->
+        <p><strong>Alert:</strong> You have <strong></strong> overdue tasks to complete</p> 
+          <span class="banner" onclick="this.parentElement.style.display='none';">&times;</span>
         </div>
 
     <!-- Line Charts -->
@@ -215,12 +215,14 @@
         <!-- New Messages -->
         <section class="message">
             <h3>Message User</h3>
-
-            <form class="widget-container">
-              <input type="text" placeholder="Search for user" class="form-field" id="userField">
-                <textarea placeholder="Message for user" class="form-area" id="messageField" style="width: 450px"></textarea>
-                  <button class="button-primary" id="send" style="width: 450px">Send</button>
-            </form>
+            <div class="messages">
+                <form class="messages" class="widget-container">
+                    <input type="text" placeholder="Search for user" class="form-field" id="userField">
+                      <textarea placeholder="Message for user" class="form-area" id="messageField" style="width: 450px"></textarea>
+                        <button class="button-primary" id="send" style="width: 450px">Send</button>
+                  </form>
+            </div>
+     
         </section>
 
            

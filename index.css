@@ -592,19 +592,30 @@ span {
 
 
 @media (min-width: 1024px) {
-/* 
-     main {
+
+       main {
      max-width: 95vw;
-    }  */
+    }  
 
-    /* .message, .recent-activity {
-        grid-column: 1 / span 2;
+
+    .message {
+        grid-column: 1 / span 1;
     }
 
-    .memebers-container, .setting {
-        grid-column: 1 / span 2;
+    .memebers, .memebers-container {
+        grid-column: 1 / span 1;
     }
-     */
+
+    .recent-activity, .setting {
+        grid-column: 2 / span 1;
+    }
+    
+
+    .traffic h3, .traffic-header ul {
+      display: inline-block; 
+      justify-self:baseline;
+    }
+
 
      .widget-container-full {
          width: 80vw;
@@ -613,9 +624,8 @@ span {
      .widget-container-half {
          width: 34vw;
      }
-     
-     
 
+  
       .bell {
           margin-left: 175%;
       }
@@ -675,7 +685,7 @@ span {
         
       }
 
-           
+          
      .form-field {
         width: 430px;
         margin-left: 30px;
@@ -698,7 +708,8 @@ span {
     display: flex;
     flex-direction: column;
     text-align: center;
-}  
+}
+
 
 
 
