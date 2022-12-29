@@ -612,10 +612,11 @@ span {
     
 
     .traffic h3, .traffic-header ul {
-      display: inline-block; 
-      justify-self:baseline;
+      display: inline-flex; 
+      gap: 120px;
     }
 
+  
 
      .widget-container-full {
          width: 80vw;
