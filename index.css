@@ -677,6 +677,23 @@ span {
      }
 
 
+#social {
+    margin-right: 25%;
+}
+
+.social-container {
+    width: 340px;
+    margin-left: 4%;
+}
+
+.social-connection {
+    display: flex;
+    gap: 120px;
+    padding: 40px;
+
+}
+   
+
      .date {
         margin-right: auto;
         margin-right: 900px;
