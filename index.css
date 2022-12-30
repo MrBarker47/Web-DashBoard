@@ -59,7 +59,7 @@ h1 {
 
 span {
     display: flex;
-    padding-bottom: 35px;
+    /* padding-bottom: 35px; */
     padding-right: 20px;
     float: right;
 
@@ -129,6 +129,12 @@ display: flex;
 justify-content: space-evenly;
 padding-left: 0;
 list-style-type: none;
+}
+
+.hourly {
+    border-radius: 5px;
+    padding: 2px;
+    background-color: lightgreen
 }
 
 /* charts */
