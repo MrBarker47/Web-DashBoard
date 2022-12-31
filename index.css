@@ -124,11 +124,25 @@ h4 {
 .traffic,
 .daily,
 .mobile,
-.social-connection {
+.social-connection,
+#border1,
+.message {
     border-bottom: 2px solid royalblue;
     padding-bottom: 20px;
 }
 
+
+#border::after {
+        content: '';
+        display: block;
+        position: relative;
+        width: 70%;
+        border-bottom: 2px solid royalblue;
+        margin-top: 8px;
+     }
+
+
+     
 
 .traffic-header ul {
 display: flex;
@@ -194,7 +208,7 @@ h3 {
     border-radius: 2%;
     width: 70%;
     background-color: gainsboro;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-top: 2%;
     padding: 4%; 
  }
