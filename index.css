@@ -124,14 +124,14 @@ h4 {
 .traffic,
 .daily,
 .mobile,
-.social-connection,
+/* .social-connection, */
 #border1,
 .message {
     border-bottom: 2px solid royalblue;
     padding-bottom: 20px;
 }
 
-
+/* 
 #border::after {
         content: '';
         display: block;
@@ -140,7 +140,7 @@ h4 {
         border-bottom: 2px solid royalblue;
         margin-top: 8px;
      }
-
+ */
 
      
 
@@ -419,6 +419,31 @@ input:checked::after {
 
 }
 
+.traffic,
+.social-connection,
+#border1,
+.message {
+    border-bottom: 2px solid royalblue;
+    padding-bottom: 20px;
+ 
+}
+
+.mobile {
+    border-left: 2px solid royalblue;
+}
+
+
+
+#border::after {
+
+        display: block;
+        position: relative;
+        width: 70%;
+        border-bottom: 2px solid royalblue;
+        margin-top: 8px;
+     } 
+
+
 #social {
     margin-right: 25%;
 }
@@ -430,7 +455,8 @@ input:checked::after {
 
 .social-connection {
     display: flex;
-    padding: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
 
 }
    
