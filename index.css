@@ -131,7 +131,6 @@ h4 {
     padding-bottom: 20px;
 }
 
-/* 
 #border::after {
         content: '';
         display: block;
@@ -140,7 +139,7 @@ h4 {
         border-bottom: 2px solid royalblue;
         margin-top: 8px;
      }
- */
+ 
 
      
 
@@ -426,6 +425,10 @@ input:checked::after {
     border-bottom: 2px solid royalblue;
     padding-bottom: 20px;
  
+}
+
+.recent-activity {
+    border-left: 2px solid royalblue;
 }
 
 .mobile {
