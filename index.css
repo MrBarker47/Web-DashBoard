@@ -71,15 +71,15 @@ span {
 
 .header {
     display: grid;
-    grid-template-columns: 4fr 2fr 2fr 2fr;
+    grid-template-columns: 4fr 2fr 2fr 4fr;
     background-color: #92969c;
 
 }
 
 .profile-picture {
     border-radius: 45%;
-    width: 50%;
-    margin-top: 7%;
+    width: 60%;
+    margin-top: 20%;
     margin-left: 4px;
 }
 
@@ -120,7 +120,7 @@ h4 {
 }
 
 /* Dashboard */
-/* 
+
 
 .traffic,
 .daily,
@@ -129,17 +129,16 @@ h4 {
 #border1 {
     border-bottom: 2px solid royalblue;
     padding-bottom: 7px;
-} */
+} 
 
-#border::after {
-        content: '';
-        display: block;
-        position: relative;
-        width: 70%;
-        border-bottom: 2px solid royalblue;
-        margin-top: 8px;
-     }
-  
+#border {
+    border-bottom: 2px solid royalblue;
+    padding-bottom: 7px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
 
      
 
@@ -207,7 +206,7 @@ h3 {
     border-radius: 2%;
     width: 70%;
     background-color: gainsboro;
-    margin-left: 90px;
+    margin-left: 60px;
     margin-top: 2%;
     padding: 4%; 
  }
