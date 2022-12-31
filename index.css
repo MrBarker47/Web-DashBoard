@@ -121,7 +121,12 @@ h4 {
 
 /* Dashboard */
 
-
+.traffic,
+.daily,
+.mobile,
+.social-connection {
+    border-bottom: 2px solid royalblue;
+}
 
 
 .traffic-header ul {
@@ -151,6 +156,8 @@ list-style-type: none;
 
 #traffic-chart {
     padding-left: 20px;
+   
+    
 }
 
 /* Memebers */
