@@ -47,26 +47,19 @@ h1 {
 
 /* Alert  */
 .alert {
+    padding-top: 4px;
     padding-bottom: 20px;
     background-color: #ccc;
     border-radius: 5px; 
 }
 
+    
+
+/* 
  .text {
     padding: 2px;
     margin: 1px; 
-} 
-
-/* .alert, .alert-banner-close {
-    display: inline-flex;
-    padding-left: 1px;
-    gap: 4px;
-} */
-
-.alert-banner-close {
-    float: right;
-    line-height: 20px;
-}
+}  */
 
 
 /* Icons */
@@ -126,7 +119,17 @@ h4 {
 }
 
 /* Dashboard */
-
+.dashboard-header,
+.traffic2,
+.daily-header,
+.mobile-header,
+.social-header,
+.new-memebers-header,
+.recent-header,
+.message-header,
+#update {
+    margin: 7px;
+}
 
 .traffic,
 .daily,
@@ -136,6 +139,7 @@ h4 {
     border-bottom: 2px solid royalblue;
     padding-bottom: 7px;
 } 
+
 
 #border {
     border-bottom: 2px solid royalblue;
@@ -188,12 +192,10 @@ list-style-type: none;
 }
 
 
-h2 {
-    padding: 2%;
-}
 
-h3 {
-    padding: 4%;
+
+h4 {
+    padding: 1%;
 }
 
 
@@ -294,6 +296,10 @@ textarea {
     margin: 20px;
    
     
+}
+
+.arrow {
+    display: none;
 }
 
 
@@ -423,25 +429,50 @@ input:checked::after {
 
 }
 
+
+
 .traffic,
+.daily,
+.mobile,
 .social-connection,
-#border1,
-.message {
+#border1 {
     border-bottom: 2px solid royalblue;
-    padding-bottom: 20px;
- 
+    padding-bottom: 7px;
+
+} 
+
+
+.arrow1{
+    display: inline-flex;
+    margin-left: 300px;
+
 }
 
-.recent-activity {
-    border-left: 2px solid royalblue;
-    
+.arrow2 {
+    display: inline-flex;
+    margin-left: 235px;
 }
+
+.arrow3 {
+    display: inline-flex;
+    margin-left: 215px;
+}
+
+.arrow4 {
+    display: inline-flex;
+    margin-left: 335px;
+}
+
+
+
 
 .mobile {
     border-left: 2px solid royalblue;
 }
 
-
+#picture1 {
+    margin-left: 45px;
+}
 
 #border::after {
 
@@ -512,11 +543,6 @@ input:checked::after {
     margin: 1%; 
 }
 
-span {
-    float: right;
-    color: white;
-
-}
 
      
  /* navbar */
@@ -558,16 +584,24 @@ span {
       
       h3 {
           padding: 7%;
+    
       }
 
       
       .date {
         margin-left: auto;
-        margin-right: 15px;
+        margin-right: 7px;
         margin-top: 30px;
         
       } 
 
+      #date {
+        margin-right: 4px;
+      }
+
+      #date1 {
+        margin-right: 25px;
+      }
       .profile-name {
         margin-right: 100px;
       }
@@ -671,7 +705,7 @@ span {
     }
     
 
-    .traffic h3, .traffic-header ul {
+    .traffic h4, .traffic-header ul {
       display: inline-flex; 
       gap: 60px;
     }
