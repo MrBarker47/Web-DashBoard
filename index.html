@@ -40,7 +40,7 @@
  
 
     <div class="Main-Header">
-        <h2 class="">DashBoard</h2>
+        <h4 class="dashboard-header">DASHBOARD</h4>
         <div class="tab"></div>
     </div>
 
@@ -48,14 +48,14 @@
 
     <div class="alert" id="alert">
         <p><strong>Alert:</strong> You have <strong></strong> overdue tasks to complete</p> 
-          <span class="banner" onclick="this.parentElement.style.display='none';">&times;</span>
-        </div>
+        <p class="alert-banner-close">x</p>
+     </div>
 
     <!-- Line Charts -->
 
     <section class="traffic">
         <div class="traffic-header">
-            <h3>Traffic</h3>  
+            <h4 class="traffic2">Traffic</h4>  
             <ul>
               <li  class="hourly" class="traffic-nav-link">Hourly</li>
               <li class="traffic-nav-link">Daily</li>
@@ -73,7 +73,7 @@
 
     <!-- Graph Chart-->
    <section class="daily">
-        <h3>Daily Traffic</h3>
+        <h4 class="daily-header">Daily Traffic</h4>
         <div class="widget-container-half">
 
           <canvas id="daily-chart"></canvas>
@@ -84,7 +84,7 @@
 
      <!-- Donut Chart -->
   <section class="mobile">
-        <h3>Mobile Users</h3>
+        <h4 class="mobile-header">Mobile Users</h4>
         <div class="widget-container-half">
 
         <canvas id="mobile-chart"></canvas>
@@ -95,7 +95,7 @@
 
      <!-- Social Status -->
      <section id="social">
-        <h3>Social Status</h3>
+        <h4 class="social-header">Social Status</h4>
         <div class="social-connection">
             <div class="social-container">
                 <div class="social-image">
@@ -135,7 +135,7 @@
 
         <!-- New Memebers -->
         <section class="memebers">
-            <h3>New MEMEBERS</h3>
+            <h4 class="new-memebers-header">New MEMEBERS</h4>
                 <div  id="border" class="memebers-container">
                     <img class="profile-image" src="images/member-1.jpg" alt="">
                     <div class="memebers-text">
@@ -150,7 +150,7 @@
                         <p class="profile-name">Dale Byrd</p>
                         <a href="dale.byrd52@example.com">dale.byrd52@example.com</a>
                     </div>
-                    <p class="date">10/15/20</p>
+                    <p class="date" id="date">10/15/20</p>
                 </div>
                 <div  id="border" class="memebers-container">
                     <img class="profile-image" src="images/member-3.jpg" alt="">
@@ -158,15 +158,15 @@
                         <p class="profile-name">Dawn Wood</p>
                         <a href="dawn.wood16@example.com">dawn.wood16@example.com</a>
                     </div>
-                    <p class="date">10/15/20</p>
+                    <p class="date" id="date">10/15/20</p>
                 </div>
                  <div id="border1" class="memebers-container">
-                    <img class="profile-image" src="images/member-4.jpg" alt="">
+                    <img class="profile-image" id="picture1" src="images/member-4.jpg" alt="">
                     <div class="memebers-text">
                         <p class="profile-name">Dan Oliver</p>
                         <a href="dan.oliver82@example.com">dan.oliver82@example.com</a>
                     </div>
-                    <p class="date">10/15/20</p>
+                    <p class="date" id="date1">10/15/20</p>
                 </div>
             </div>
         </section>
@@ -175,33 +175,35 @@
 
         <!-- Recent Activity  -->
     <section class="recent-activity">
-        <h3>RECENT ACTIVITY </h3>
+        <h4 class="recent-header">RECENT ACTIVITY </h4>
          <div id="border" class="recent-memebers">
                     <img class="profile-image" src="images/member-1.jpg" alt="">
                     <div class="memebers-text">
-                        <p>Victoria Chambers commented on WebApp's</p>
+                        <p>Victoria Chambers commented on WebApp's <strong class="arrow1">></strong></p>
                         <p class="left-side">4 hours ago</p>
+
                     </div>
                 </div>
                 <div id="border"class="recent-memebers">
                     <img class="profile-image" src="images/member-2.jpg" alt="">
                     <div class="memebers-text">
-                        <p>Dale Byrd liked the post FaceBook's Changes for 2021</p>
-                        <p class="left-side">5 hours</p>
+                        <p>Dale Byrd liked the post FaceBook's Changes for 2021 <strong class="arrow2">></strong></p>
+                        <p class="left-side">5 hours </p>
+                        
                     </div>
                 </div>
             <div id="border"class="recent-memebers">
                     <img class="profile-image" src="images/member-3.jpg" alt="">
                     <div class="memebers-text">
-                        <p>Dawn Wood commented on Facebook's Changes for 2021</p>
+                        <p>Dawn Wood commented on Facebook's Changes for 2021 <strong class="arrow3">></strong></p>
                         <p class="left-side">5 hours</p>
                     </div>
                 </div>
     
                 <div id="border1" class="recent-memebers">
-                    <img class="profile-image" src="images/member-4.jpg" alt="">
+                    <img class="profile-image" id="picture1" src="images/member-4.jpg" alt="">
                     <div class="memebers-text">
-                        <p>Dan Oliver posted WebApp's SEO Tips</p>
+                        <p>Dan Oliver posted WebApp's SEO Tips <strong class="arrow4">></strong></p>
                         <p class="left-side">1 day ago</p>
                     </div>
                 </div>
@@ -214,7 +216,7 @@
 
         <!-- New Messages -->
         <section class="message">
-            <h3>Message User</h3>
+            <h4 class="message-header">MESSAGE USER</h4>
             <div class="messages">
                 <form class="messages" class="widget-container">
                     <input type="text" placeholder="Search for user" class="form-field" id="userField">
@@ -230,7 +232,7 @@
 
         <!-- Settings -->
           <section class="setting">
-            <h3 id="update">Settings</h3>
+            <h4 id="update">SETTINGS</h4>
                 <div class="container">
                    <p class="paragraph">Send Email notifications </p><input class="checkbox" type="checkbox">
                 </div>
