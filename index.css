@@ -28,10 +28,10 @@ header {
 }
 
 main {
- 
-    grid-area: main;
+ grid-area: main;
 
 }
+
 
 h1 {
     margin-top: 15px;
@@ -47,20 +47,28 @@ h1 {
 
 /* Alert  */
 .alert {
-    padding-top: 4px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 7px;
+    /* padding-top: 4px;
+    padding-bottom: 20px; */
     background-color: #ccc;
     border-radius: 5px; 
 }
 
-    
+ .tab {
+    padding: 20px;
+    background-color: #ccc;
+    width: 70%;
+    height: 20px;
+    border-left: 2px solid royalblue;
+    border-bottom: 2px solid royalblue;
 
-/* 
- .text {
-    padding: 2px;
-    margin: 1px; 
-}  */
+}
 
+.Main-Header {
+    display: flex;
+}
 
 /* Icons */
 
@@ -133,12 +141,14 @@ h4 {
 
 .traffic,
 .daily,
-.mobile,
 .social-connection,
+.mobile,
 #border1 {
     border-bottom: 2px solid royalblue;
     padding-bottom: 7px;
+  
 } 
+
 
 
 #border {
@@ -150,7 +160,9 @@ h4 {
 
 
 
-     
+.hourly {
+    color: white;
+}     
 
 .traffic-header ul {
 display: flex;
@@ -160,7 +172,7 @@ list-style-type: none;
 }
 
 .hourly {
-    border-radius: 7px;
+    border-radius: 30%;
     padding: 4px;
     background-color: lightgreen
 }
@@ -297,8 +309,10 @@ textarea {
    
     
 }
-
-.arrow {
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4 {
     display: none;
 }
 
@@ -429,37 +443,41 @@ input:checked::after {
 
 }
 
+.tab {
+    display: block;
+    min-width: 168%;
 
+}
 
-.traffic,
-.daily,
-.mobile,
-.social-connection,
-#border1 {
+/* .traffic,
+.daily {
     border-bottom: 2px solid royalblue;
     padding-bottom: 7px;
 
-} 
+}  */
 
 
-.arrow1{
-    display: inline-flex;
+.arrow1 {
+    display: inline;
+    padding-top: 30px;
     margin-left: 300px;
 
 }
 
 .arrow2 {
-    display: inline-flex;
+    display: inline;
+    margin-top: 30px;
     margin-left: 235px;
 }
 
 .arrow3 {
-    display: inline-flex;
+    display: inline;
+    margin-top: 30px;
     margin-left: 215px;
 }
 
 .arrow4 {
-    display: inline-flex;
+    display: inline;
     margin-left: 335px;
 }
 
@@ -484,9 +502,10 @@ input:checked::after {
      } 
 
 
-#social {
+/* #social {
     margin-right: 25%;
-}
+    
+} */
 
 .social-container {
     width: 240px;
@@ -496,9 +515,12 @@ input:checked::after {
 .social-connection {
     display: flex;
     padding-bottom: 40px;
-    padding-left: 40px;
+    padding-right: 40px;
+        border-bottom: 2px solid royalblue;
+        width: 760px;
+    }
+    
 
-}
    
        .widget-container-full {
         width: 80vw;
@@ -534,6 +556,7 @@ input:checked::after {
      /* Alert  */
 .alert {
     margin: 20px;
+
     background-color: #ccc;
     border-radius: 5px;
 }
@@ -775,36 +798,55 @@ input:checked::after {
 
 .social-connection {
     display: flex;
-    gap: 120px;
-    padding: 40px;
+    width: 955px;
+    margin-right: 20px;
+    
+}
+
+
+.arrow1 {
+    display: inline;
+    padding-top: 30px;
+    margin-left: 300px;
 
 }
-   
 
-     .date {
-        margin-right: auto;
-        margin-right: 900px;
-        margin-top: 30px;
-        
-      } 
+.arrow2 {
+    display: inline;
+    margin-top: 30px;
+    margin-left: 235px;
+}
 
-      .profile-name {
-        margin-right: 100px;
-      }
+.arrow3 {
+    display: inline;
+    margin-top: 30px;
+    margin-left: 215px;
+}
 
-      .left-side {
-       float: left;
-      }
+.arrow4 {
+    display: inline;
+    margin-left: 335px;
+}
 
-      .memebers-text {
-        margin-top: 30px;
-        
-      }
+.setting, .recent-activity {
+    border-left: 2px solid royalblue;
+}
 
-          
+
+/* 
+      .profile-message {
+        margin-right: 60px;
+    }
+
+    .arrow4 {
+        margin-left: 320px;
+    } */
+
+    
+ 
      .form-field {
-        width: 430px;
-        margin-left: 30px;
+        width: 300px;
+        margin-left: 20px;
         
      }
 
@@ -813,7 +855,7 @@ input:checked::after {
      }
  
      #send {
-    min-width: 230px;
+    min-width: 60%;
     margin-left: 30px;
     margin-top: 7px;
     margin-bottom: 15px;
@@ -821,7 +863,7 @@ input:checked::after {
 
 
     .option {
-        width: 60%;
+        width: 90%;
         margin-left: 4%;
         padding: 2%;
         display: flex;
@@ -845,7 +887,33 @@ input:checked::after {
 .recent-activity {
     display: flex;
     flex-direction: column;
-    text-align: center;
+
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    position: relative;
+    width: 60px;
+    margin-right: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: gray;
+    transition: background .3s;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: white;
+    transition: right .4s;
 }
 
 
