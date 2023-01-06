@@ -43,18 +43,56 @@ h1 {
     margin-top: 15px;
 }
 
+#notifications {
+    position: absolute;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: 174px;
+}
 
+.notification-bell:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: 7;
+    cursor: pointer;
+  }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
 /* Alert  */
 .alert {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 7px;
-    /* padding-top: 4px;
-    padding-bottom: 20px; */
+    margin-top: 40px;
+    margin-left: 4px;
+    padding-top: 24px;
+    padding-bottom: 20px;
     background-color: #ccc;
     border-radius: 5px; 
 }
+
+.alert-banner-close {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -4.9%;
+    float: right;
+    padding-right: 2px;
+  }
 
  .tab {
     padding: 20px;
@@ -84,10 +122,9 @@ h1 {
     width: 60%;
     margin-top: 7px;
     margin-left: 7px;
-
+    
 }
-
-
+   
 
 h4 {
     font-weight: lighter;
@@ -95,10 +132,9 @@ h4 {
 }
 
 .bell {
-   width: 20px;
+   width: 24px;
    margin: 20%;
     padding-left: 1px;
-    
 }
 
 
@@ -449,6 +485,17 @@ input:checked::after {
 
 }
 
+.header1 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.name {
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+
 /* .traffic,
 .daily {
     border-bottom: 2px solid royalblue;
@@ -456,6 +503,14 @@ input:checked::after {
 
 }  */
 
+
+.alert-banner-close {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -30px;
+  float: right;
+  padding-right: 20px;
+}
 
 .arrow1 {
     display: inline;
@@ -523,7 +578,7 @@ input:checked::after {
 
    
        .widget-container-full {
-        width: 80vw;
+        width: 89vw;
      }
  
      .widget-container-half {
@@ -534,13 +589,48 @@ input:checked::after {
     /* header */
 
     .profile-picture {
-      margin-left: 150px;
+      margin-left: 200px;
       margin-top: 7px;
     }
 
     .bell {
-        margin-left: 175%;
+        margin-left: 230%;
+        width: 30px;
     }
+
+    #notifications {
+        position: absolute;
+        top: 1%;
+        width: 10px;
+        height: 10px;
+        background: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        left: 580px;
+    }
+    
+    .notification-bell:hover{
+        animation: shake 0.5s;
+        animation-iteration-count: 7;
+        cursor: pointer;
+      }
+    
+    @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+    
 
     .header {
         display: grid;
@@ -552,14 +642,26 @@ input:checked::after {
         margin-left: 20px;
     }
 
+    .traffic h4, .traffic-header ul {
+        display: inline-flex; 
+        gap: 60px;
+     }
 
+     .traffic-header ul {
+        padding-left: 300px;
+     }
+  
      /* Alert  */
 .alert {
-    margin: 20px;
-
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     background-color: #ccc;
     border-radius: 5px;
 }
+
 
 .text {
     padding: 2px;
@@ -734,12 +836,12 @@ input:checked::after {
     }
 
     .traffic ul{
-        padding-left: 500px;
+        padding-left: 445px;
     }
   
 
      .widget-container-full {
-         width: 80vw;
+         width: 90vw;
          
      }
      
@@ -747,9 +849,50 @@ input:checked::after {
          width: 34vw;
      }
 
-  
+     .name {
+        padding-left: 20px;
+        
+     }
+
+     
+    #notifications {
+        position: absolute;
+        top: 0.7%;
+        width: 10px;
+        height: 10px;
+        background: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        left: 785px;
+    }
+    
+    .notification-bell:hover{
+        animation: shake 0.5s;
+        animation-iteration-count: 7;
+        cursor: pointer;
+      }
+    
+    @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+    
+
+
+
       .bell {
-          margin-left: 175%;
+          margin-left: 185%;
       }
   
       .header {
@@ -773,8 +916,8 @@ input:checked::after {
 
     .profile-picture {
         border-radius: 45%;
-        width: 60px;
-        margin-left: 70%;
+        width: 50px;
+        margin-left: 90%;
     }
 
 
@@ -803,29 +946,8 @@ input:checked::after {
     
 }
 
-
-.arrow1 {
-    display: inline;
-    padding-top: 30px;
-    margin-left: 300px;
-
-}
-
-.arrow2 {
-    display: inline;
-    margin-top: 30px;
-    margin-left: 235px;
-}
-
-.arrow3 {
-    display: inline;
-    margin-top: 30px;
-    margin-left: 215px;
-}
-
-.arrow4 {
-    display: inline;
-    margin-left: 335px;
+.profile-message {
+    padding: 5px;
 }
 
 .setting, .recent-activity {
@@ -845,18 +967,18 @@ input:checked::after {
     
  
      .form-field {
-        width: 300px;
+        width: 440px;
         margin-left: 20px;
         
      }
 
      textarea {
-        min-width: 130px;
+        min-width: 440px;
      }
  
      #send {
-    min-width: 60%;
-    margin-left: 30px;
+    min-width: 90%;
+    margin-left: 20px;
     margin-top: 7px;
     margin-bottom: 15px;
     }
