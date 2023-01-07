@@ -512,31 +512,35 @@ input:checked::after {
   padding-right: 20px;
 }
 
-.arrow1 {
-    display: inline;
-    padding-top: 30px;
-    margin-left: 300px;
+ .arrow1 {
+    display: block;
+    padding-left: 204%;
 
 }
+
 
 .arrow2 {
-    display: inline;
-    margin-top: 30px;
-    margin-left: 235px;
-}
+   display: block;
+   padding-left: 167%;
+
+} 
+
+
+
 
 .arrow3 {
-    display: inline;
-    margin-top: 30px;
-    margin-left: 215px;
-}
+   display: block;
+   padding-left: 159%;
+
+} 
+
+
 
 .arrow4 {
-    display: inline;
-    margin-left: 335px;
-}
+   display: block;
+   padding-left: 235%;
 
-
+} 
 
 
 .mobile {
@@ -905,7 +909,11 @@ input:checked::after {
           margin-left: 30px;
       }
       
-
+      .tab {
+        display: block;
+        min-width: 175%;
+    
+    }
 
     .navigation {
         text-align: center;
@@ -955,16 +963,7 @@ input:checked::after {
 }
 
 
-/* 
-      .profile-message {
-        margin-right: 60px;
-    }
 
-    .arrow4 {
-        margin-left: 320px;
-    } */
-
-    
  
      .form-field {
         width: 440px;
@@ -1004,13 +1003,55 @@ input:checked::after {
         width: 45%;
     
     }
-    
-
+ 
 .recent-activity {
     display: flex;
     flex-direction: column;
 
 }
+
+.new-class {
+    margin-right: 20px;
+}
+.profile-message2, .profile-message3 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.profile-message3 {
+    margin-right: 2px;
+}
+
+.arrow1 {
+    display: block;
+    padding-left: 104%;
+
+} 
+
+
+
+.arrow2{
+    display: block;
+    padding-left: 90%;
+    margin-bottom: 20px;
+
+} 
+
+
+.arrow3 {
+    display: block;
+    padding-left: 90%;
+
+} 
+
+
+.arrow4 {
+    display: block;
+    padding-left: 117%;
+
+} 
+
 
 .checkbox {
     -webkit-appearance: none;
