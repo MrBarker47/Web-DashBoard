@@ -34,18 +34,22 @@ main {
 
 
 h1 {
-    margin-top: 15px;
+    margin-top: 25px;
     padding-left: 10px;
     font-size: 20px;
 }
 
 .name {
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-left: 4px;
 }
 
+
+ 
+
 #notifications {
-    position: absolute;
-    top: 7px;
+    position: relative;
+    bottom: 70%;
     width: 10px;
     height: 10px;
     background: green;
@@ -53,27 +57,35 @@ h1 {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    right: 174px;
+    left: 60%;
 }
+
 
 .notification-bell:hover{
     animation: shake 0.5s;
     animation-iteration-count: 7;
     cursor: pointer;
+
   }
 
+  .notification-bell {
+    padding-top: 20%;
+  }
+
+
+
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
+    /* 0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
     20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); } */
     40% { transform: translate(1px, -1px) rotate(1deg); }
     50% { transform: translate(-1px, 2px) rotate(-1deg); }
     60% { transform: translate(-3px, 1px) rotate(0deg); }
     70% { transform: translate(3px, 1px) rotate(-1deg); }
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+
   }
 
 /* Alert  */
@@ -120,11 +132,11 @@ h1 {
 .profile-picture {
     border-radius: 45%;
     width: 60%;
-    margin-top: 7px;
-    margin-left: 7px;
+    margin-top: 20px;
+    margin-left: 20px;
     
 }
-   
+
 
 h4 {
     font-weight: lighter;
@@ -603,8 +615,8 @@ input:checked::after {
     }
 
     #notifications {
-        position: absolute;
-        top: 1%;
+        position: relative;
+        bottom: 70%;
         width: 10px;
         height: 10px;
         background: green;
@@ -612,7 +624,7 @@ input:checked::after {
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        left: 580px;
+        left: 245px;
     }
     
     .notification-bell:hover{
@@ -858,10 +870,9 @@ input:checked::after {
         
      }
 
-     
-    #notifications {
-        position: absolute;
-        top: 0.7%;
+     #notifications {
+        position: relative;
+        bottom: 70%;
         width: 10px;
         height: 10px;
         background: green;
@@ -869,9 +880,8 @@ input:checked::after {
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        left: 785px;
+        left: 184px;
     }
-    
     .notification-bell:hover{
         animation: shake 0.5s;
         animation-iteration-count: 7;
