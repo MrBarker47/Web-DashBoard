@@ -136,12 +136,12 @@ h1 {
     margin-left: 20px;
     
 }
-   /* .notification-bell {
-    border-right: 2px solid royalblue;
+   .notification-bell {
     margin-top: 7%;
     margin-bottom: 7%;
+   
 
-   } */
+   }
 
 .border {
     border-right: 2px solid royalblue;
@@ -297,6 +297,7 @@ h4 {
     justify-content: center;
     align-items: center;
     background-color: royalblue;
+    fill: white;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -503,10 +504,10 @@ input:checked::after {
     grid-column: 1 / span 2;
 
 }
-
+ 
 .tab {
     display: block;
-    min-width: 168%;
+    min-width: 164%;
 
 }
 
@@ -517,19 +518,19 @@ input:checked::after {
 }
 
 .name {
-    padding-left: 60px;
+    padding-left: 50px;
     margin-top: 50px;
-}
-.border {
+} 
+ .border {
     border-right: 2px solid royalblue;
     position:absolute;
     width: 600px;
     height: 30px;
     top: 40px;
-}
+} 
 
 .profile-picture {
-  margin-left: 220px;
+  margin-left: 200px;
   margin-top: 30px;
 }
 
@@ -552,11 +553,7 @@ input:checked::after {
     left: 245px;
 }
 
-.notification-bell:hover{
-    animation: shake 0.5s;
-    animation-iteration-count: 7;
-    cursor: pointer;
-  }
+
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -611,14 +608,14 @@ input:checked::after {
 
  .arrow1 {
     display: block;
-    padding-left: 204%;
+    padding-left: 177%;
 
 }
 
 
 .arrow2 {
    display: block;
-   padding-left: 167%;
+   padding-left: 144%;
 
 } 
 
@@ -627,7 +624,7 @@ input:checked::after {
 
 .arrow3 {
    display: block;
-   padding-left: 159%;
+   padding-left: 137%;
 
 } 
 
@@ -635,7 +632,7 @@ input:checked::after {
 
 .arrow4 {
    display: block;
-   padding-left: 235%;
+   padding-left: 202%;
 
 } 
 
@@ -657,25 +654,24 @@ input:checked::after {
         margin-top: 8px;
      } 
 
-
-/* #social {
+ 
+ /* #social {
     margin-right: 25%;
     
-} */
+}  */
 
 .social-container {
-    width: 240px;
-    margin-left: 4%;
+    width: 220px;
+    margin-left: 2%;
 }
 
 .social-connection {
     display: flex;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     padding-right: 40px;
-        border-bottom: 2px solid royalblue;
-        width: 760px;
-    }
-    
+    border-bottom: 2px solid royalblue;
+    width: 700px;
+    } 
 
    
        .widget-container-full {
@@ -691,7 +687,7 @@ input:checked::after {
 
      /* Alert  */
 .alert {
-    margin-right: 20px;
+    margin-right: 60px;
     margin-left: 20px;
     margin-bottom: 30px;
     padding-top: 2px;
@@ -753,18 +749,22 @@ input:checked::after {
       
       .date {
         margin-left: auto;
-        margin-right: 7px;
+        margin-right: 20px;
         margin-top: 30px;
         
       } 
 
       #date {
-        margin-right: 4px;
+        margin-right: 20px;
+        
       }
 
-      #date1 {
-        margin-right: 25px;
+       #date1 {
+        margin-right: 40px;
+        
       }
+      
+      
       .profile-name {
         margin-right: 100px;
       }
@@ -774,7 +774,7 @@ input:checked::after {
       }
 
       .memebers-text {
-        margin-top: 30px;
+        margin-top: 20px;
         
       }
 
@@ -792,21 +792,29 @@ input:checked::after {
 
     
      .form-field {
-        width: 720px;
+        width: 650px;
         margin-left: 30px;
      }
 
      textarea {
-        min-width: 720px;
+        min-width: 650px;
      }
  
      #send {
-    min-width: 720px;
+    min-width: 650px;
     margin-left: 30px;
     margin-top: 7px;
     margin-bottom: 15px;
     }
 
+    .option {
+        width: 95%;
+        margin-left: 1%;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    
 
     
      /* save and cancel */
@@ -816,6 +824,7 @@ input:checked::after {
         font-size: large;
         width: 45%;
     }
+
 
     .checkbox {
         -webkit-appearance: none;
