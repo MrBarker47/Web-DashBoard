@@ -518,19 +518,19 @@ input:checked::after {
 }
 
 .name {
-    padding-left: 50px;
+    padding-left: 75px;
     margin-top: 50px;
 } 
  .border {
     border-right: 2px solid royalblue;
     position:absolute;
-    width: 570px;
+    width: 725px;
     height: 40px;
     top: 40px;
 } 
 
 .profile-picture {
-  margin-left: 200px;
+  margin-left: 270px;
   margin-top: 30px;
 }
 
@@ -550,7 +550,7 @@ input:checked::after {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    left: 245px;
+    left: 285px;
 }
 
 
@@ -608,14 +608,14 @@ input:checked::after {
 
  .arrow1 {
     display: block;
-    padding-left: 177%;
+    padding-left: 262%;
 
 }
 
 
 .arrow2 {
    display: block;
-   padding-left: 144%;
+   padding-left: 214%;
 
 } 
 
@@ -624,7 +624,7 @@ input:checked::after {
 
 .arrow3 {
    display: block;
-   padding-left: 137%;
+   padding-left: 202%;
 
 } 
 
@@ -632,7 +632,7 @@ input:checked::after {
 
 .arrow4 {
    display: block;
-   padding-left: 202%;
+   padding-left: 300%;
 
 } 
 
@@ -661,8 +661,8 @@ input:checked::after {
 }  */
 
 .social-container {
-    width: 220px;
-    margin-left: 2%;
+    width: 320px;
+    margin-left: 4%;
 }
 
 .social-connection {
@@ -670,7 +670,7 @@ input:checked::after {
     padding-bottom: 20px;
     padding-right: 40px;
     border-bottom: 2px solid royalblue;
-    width: 700px;
+    width: 920px;
     } 
 
    
@@ -792,17 +792,17 @@ input:checked::after {
 
     
      .form-field {
-        width: 650px;
+        width: 850px;
         margin-left: 30px;
      }
 
      textarea {
-        min-width: 650px;
+        min-width: 850px;
      }
  
      #send {
-    min-width: 650px;
-    margin-left: 30px;
+    min-width: 890px;
+    margin-left: 20px;
     margin-top: 7px;
     margin-bottom: 15px;
     }
@@ -857,7 +857,7 @@ input:checked::after {
     }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
 
        main {
      max-width: 95vw;
